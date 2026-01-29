@@ -2,7 +2,7 @@
 
 Following the official design mostly. Using `Raleway` font instead of `open sans`. **Sections are currently not auto-numbered**
 
-![[poster_a0.pdf]]
+<image src="./poster_a0.pdf"/>
 
 ## Authors
 - add mainauthors with `\mainauthor{Leonhard Euler}`
