@@ -1,0 +1,57 @@
+\documentclass{hsmwposter}
+
+% packages
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+% setup title and authors
+\title{My Scientific Heading - A Breathtaking Angle on an Important Matter}
+\mainauthor{Leonhard Euler}
+\mainauthor{Carl Friedrich Gauß}
+\coauthor{Kurt Gödel}
+\coauthor{Euklid von Alexandria}
+\correspondent{Leonhard Euler}
+\email{leonhard.euler@euler-mathematics.unreal}
+
+
+% setup the number of columns (either 1 or 2)
+\SetPosterColumns{2}
+
+\begin{document}
+% setup layout
+\posterlayout
+
+% setup sponsors
+\begin{sponsorblock}
+  \hfill 
+  \begin{minipage}[t]{0.30\textwidth}
+    \raggedleft
+    \includegraphics[width=\linewidth]{./sponsor/esf.jpg}
+    {\fontsize{20}{22}\selectfont L.E. and C.F.G. are sponsored by European Social Fund \\(ESF, 000000000 \& 000000000)}
+  \end{minipage}
+\end{sponsorblock}
+
+% start poster
+\begin{poster}
+  \section{Section Heading}
+     \lipsum[1]
+     $$\phi(n) = \{ k \in \mathbb{N} \, \mid \, 1 \leq k \leq n \land gcd(k,n)=1\}$$
+     
+  \subsection{Subsection Heading}
+      \lipsum[2-3]
+
+      \begin{staticfigure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{./figures/gauss.jpg}
+        \caption{10 Mark für Carl}
+      \end{staticfigure}
+      \lipsum[4]
+      
+  \section{Another Section Heading}
+      \lipsum[6-9]
+\end{poster}
+
+\end{document}
+
