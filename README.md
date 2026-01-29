@@ -2,8 +2,7 @@
 
 Following the official design mostly. Using `Raleway` font instead of `open sans`. **Sections are currently not auto-numbered**
 
-<image src="./poster_a0.pdf"/>
-
+![full_pdf](./REPO_IMAGES/full_pdf.png)
 ## Authors
 - add mainauthors with `\mainauthor{Leonhard Euler}`
 - add coauthors with `\coauthor{Kurt Gödel}`
