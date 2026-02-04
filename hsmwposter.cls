@@ -33,6 +33,8 @@
 \RequirePackage{unicode-math}
 \RequirePackage{caption}
 \RequirePackage{subcaption}
+\RequirePackage{adjustbox}
+
 
 \DeclareCaptionFormat{poster}
 {
@@ -43,15 +45,6 @@
 }
 
 %--Section Styling--
-% Section Formatting
-
-% \titleformat{\section}{
-%   \bfseries\blue\fontsize{50}{50}\selectfont\blue
-% }{\thesection}{1em}{}
-%
-% \titleformat{\subsection}{
-%   \bfseries\fontsize{35}{35}\selectfont\blue
-% }{\thesubsection}{1em}{}
 
 % Section Spacing
 
@@ -64,6 +57,7 @@
   }
 }
 
+% Section Formatting
 \makeatletter
 
 \newlength{\temp}
@@ -93,7 +87,7 @@
 % Math Font Size
 % \setmathfont{Latin Modern Math}
 % \setmathfont{TeX Gyre Termes Math}
-\setmathfont{STIX Two Math}
+\setmathfont{TeX Gyre Pagella}
 
 % positions
 \newlength{\LeftMargin}
@@ -223,6 +217,7 @@
 \newenvironment{sponsorblock}[0]{
   \begin{textblock*}{0.757\FullLine}(\dimexpr\LeftMargin + 0.23\paperwidth\relax, \FooterTop)
     \fontsize{25}{29}\selectfont 
+    \noindent\ignorespaces
 }
 {
   \end{textblock*}

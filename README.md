@@ -1,5 +1,11 @@
 # Useage
 
+**Compilation with lualatex!**
+
+```bash
+lualatex a0_poster.tex
+```
+
 Following the official design mostly. Using `Raleway` font instead of `open sans`. **Sections are currently not auto-numbered**
 
 ![full_pdf](./REPO_IMAGES/full_pdf.png)
@@ -35,4 +41,12 @@ Following the official design mostly. Using `Raleway` font instead of `open sans
 
 ![figure_image](./REPO_IMAGES/figures.png)
 
-
+## Tables
+- add tables wrapped inside an adjustbox
+```latex
+\begin{statictable}
+  \begin{adjustbox}{max width=\columnwidth}
+    % your table goes here
+  \end{adjustbox}
+\end{statictable}
+```
