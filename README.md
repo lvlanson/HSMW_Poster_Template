@@ -28,6 +28,7 @@ Following the official design mostly. Using `Raleway` font instead of `open sans
 \AddSponsorBlockHorizontal{./sponsor/BMWE_sponsor_eng.png}{M.K. is supported by the joint project AIMS (subprojects IAI-XPRESS and DAIMLER) funded by the German Federal Ministry for Economic Affairs and Energy\\(BMWE, 50WK2270E )}
 \AddSponsorBlockHorizontal{./sponsor/BMFTR_sponsor_eng.png}{T.P. is supported by the project PAL founded by the Federal Ministry of Research, Technology and Space\\(BMFTR, 02L19C300)}
 \AddSponsorBlockVertical{./sponsor/esf.png}{S.P. is supported by European Social Fund\\(ESF, 100715238)}
+\printsponsorblock
 ```
 
 ![sponsors_image](./REPO_IMAGES/sponsors.png)
